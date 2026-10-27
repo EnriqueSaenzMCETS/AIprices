@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "currency": "USD",
+  "pricingBasis": "per_million_tokens",
+  "updatedAt": "2026-10-27",
+  "models": [
+    {
+      "id": "luna",
+      "name": "GPT-6 Luna",
+      "apiId": "gpt-6-luna",
+      "company": "OpenAI",
+      "input": 0.1,
+      "output": 0.5,
+      "toolSystemTokens": 0,
+      "color": "#2563eb",
+      "lineWidth": 4,
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "terra",
+      "name": "GPT-6.1 Terra",
+      "apiId": "gpt-6.1-terra",
+      "company": "OpenAI",
+      "input": 1.0,
+      "output": 5.0,
+      "toolSystemTokens": 0,
+      "color": "#7c3aed",
+      "source": "https://developers.openai.com/api/docs/pricing"
+    },
+    {
+      "id": "haiku",
+      "name": "Claude Haiku 5.5",
+      "apiId": "claude-haiku-5-5",
+      "company": "Anthropic",
+      "input": 0.1,
+      "output": 0.5,
+      "toolSystemTokens": 286,
+      "color": "#ea580c",
+      "dash": "7 5",
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "id": "gemini-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "apiId": "gemini-3.5-flash-lite",
+      "company": "Google",
+      "input": 0.3,
+      "output": 2.5,
+      "toolSystemTokens": 0,
+      "color": "#059669",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "id": "gemini-2-5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "apiId": "gemini-2.5-flash-lite",
+      "company": "Google",
+      "input": 0.1,
+      "output": 0.4,
+      "toolSystemTokens": 0,
+      "color": "#db2777",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+    }
+  ]
+}
