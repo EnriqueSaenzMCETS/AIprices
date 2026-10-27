@@ -1,4 +1,10 @@
 {
-  "buildCommand": null,
-  "outputDirectory": "."
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "app.js", "use": "@vercel/static" },
+    { "src": "calculos.js", "use": "@vercel/static" },
+    { "src": "*.json", "use": "@vercel/static" },
+    { "src": "*.md", "use": "@vercel/static" },
+    { "src": "*.csv", "use": "@vercel/static" }
+  ]
 }
